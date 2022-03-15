@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+.w {
+    width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 3px solid #C2CCDB;
+    border-left: 3px solid #C2CCDB;
+}
+
+#top {
+    height: 150px;
+    border-top: 1px solid #C2CCDB;
+}
+
+#menu {
+    font-family: "仿宋";
+    font-size: 12px;
+    line-height: 28px;
+}
+
+#lin {
+    height: 5px;
+    overflow: hidden;
+    background-image: url("images/g04.gif");
+}
+
+#xx {
+    height: 580px;
+    background-image: url("images/g05.gif");
+}
+
+.link {
+    width: 890px;
+    height: 25px;
+    float: left;
+    padding-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top: 1px solid #C2CCDB;
+}
+
+#x_left {
+    width: 610px;
+    height: 580px;
+    float: left;
+    visibility: inherit;
+    overflow: hidden;
+}
+
+#x_right {
+    width: 270px;
+    height: 580px;
+    float: right;
+    padding-bottom: 3px;
+}
+
+.xl_a {
+    width: 595px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    overflow: hidden;
+    line-height: 25px;
+    background-image: url("images/g10.gif");
+}
+
+.xl_b {
+    width: 580px;
+    height: 111px;
+    float: left;
+    padding-right: 15px;
+    padding-left: 10px;
+    display: inline;
+    background-image: url("images/g11.gif");
+}
+
+.xr_a {
+    width: 250px;
+    height: 95px;
+    padding-left: 20px;
+    border-bottom: 1px solid #B4B4B4;
+    background-image: url("images/g07.gif");
+    background-repeat: no-repeat;
+}
+
+.xr_b {
+    width: 270px;
+    height: 485px;
+    padding-top: 10px;
+    display: inline;
+    font-family: "宋体";
+    font-size: 12px;
+}
+
+body {
+    margin-top: 0px;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    background-image: url("images/g01.gif");
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+a:link {
+    color: #203F78;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9900CC;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #F70;
+    text-decoration: underline;
+}
+
+#menu a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 7px;
+    padding-right: 7px;
+    display: block;
+    text-decoration: none;
+    color: #203F78;
+}
+
+#menu a:hover {
+    color: #203F78;
+    background-image: url("images/g03.gif");
+}
+
+.xl_b li {
+    float: left;
+}
+
+.xl_b span {
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.xl_b img {
+    padding: 4px;
+    border: 1px solid #CCC;
+    margin-top: 4px;
+    background-image: url("images/g12.gif");
+    background-repeat: no-repeat;
+}
+
+.xl_b_txt {
+    width: 455px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 17px;
+    color: #999;
+}
+
+.xl_b_title {
+    width: 455px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: "宋体";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>粉丝注册</title>
+
+    <style type="text/css">
+        .rg_layout {
+            width: 900px;
+            height: 750px;
+            border: 8px solid #EEEEEE;
+            background-color: white;
+            margin: auto;
+            margin-top: 15px;
+        }
+
+        .rg_left {
+            float: left;
+            margin: 15px;
+        }
+
+        .rg_left > p:first-child {
+            color: #c60119;
+            fonnt-size: 20px;
+        }
+
+        .rg_left > p:last-child {
+            color: #A6A6A6;
+            font-size: 20px;
+        }
+
+        .rg_center {
+            float: left;
+            width: 450px;
+
+        }
+
+        .rg_right {
+            float: right;
+            margin: 15px;
+        }
+
+        .rg_right > p:first-child {
+
+            font-size: 5px;
+        }
+
+        .rg_right p a {
+            color: pink;
+        }
+
+        .td_left {
+            width: 100px;
+            text-align: right;
+            height: 45px;
+        }
+
+        .td_right {
+            padding-left: 50px;
+        }
+
+        #usernames, #password, #Email, #tel, #checkcode {
+            width: 251px;
+            height: 32px;
+            border: 1px solid #A6A6A6;
+            border-radius: 5px;
+            padding-left: 5px;
+        }
+
+        #checkcode {
+            width: 110px;
+        }
+
+        #img_check {
+            height: 32px;
+            vertical-align: middle;
+        }
+
+        #btn_sub {
+            width: 150px;
+            height: 40px;
+            background-color: #FFD026;
+            border: 1px solid #FFD026;
+        }
+
+        body {
+            background-image: url("images/bz01.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        .style1 {
+            font-size: 10px;
+            font-style: oblique;
+            font-family: 黑体;
+            font-weight: bold;
+        }
+
+        .style2 {
+            font-size: 20px;
+            font-style: inherit;
+            color: #c60119;
+            font-weight: bold;
+        }
+
+        .style3 {
+            font-size: 25px;
+            font-family: 楷体;
+            font-weight: bold;
+            color: #9933CC;
+        }
+
+        .style4 {
+            font-size: 15px;
+            font-family: 黑体;
+        }
+
+    </style>
+</head>
+<body>
+<div class="rg_layout">
+    <div class="rg_left">
+        <p>新用户注册</p>
+        <p>USER REGIDTER</p>
+
+    </div>
+    <div class="rg_center">
+        <div class="rg_form">
+            <form action="#" method="post">
+                <table>
+                    <tr>
+                        <td class="td_left"><label for="usernames">用户名</label></td>
+                        <td class="td_right"><input type="text" name="username" id="usernames" placeholder="请输入账号"></td>
+                    </tr>
+                    <tr>
+                        <td class="td_left"><label for="password">密码</label></td>
+                        <td class="td_right"><input type="password" name="password" id="password" placeholder="请输入密码">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left"><label for="email">Email</label></td>
+                        <td class="td_right"><input type="email" name="email" id="email" placeholder="请输入Email"></td>
+                    </tr>
+                    <tr>
+                        <td class="td_left"><label for="name">姓名</label></td>
+                        <td class="td_right"><input type="text" name="name" id="name" placeholder="请输入姓名"></td>
+                    </tr>
+                    <tr>
+                        <td class="td_left"><label for="tel">手机号</label></td>
+                        <td class="td_right"><input type="number" name="tel" id="tel" placeholder="请输入手机号"></td>
+                    </tr>
+                    <tr>
+                        <td class="td_left"><label>性别</label></td>
+                        <td class="td_right"><input type="radio" name="gender" value="male">男
+                            <input type="radio" name="gender" value="female">女
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left"><label for="birthday">出生日期</label></td>
+                        <td class="td_right"><input type="date" name="birthday" id="birthday"></td>
+                    </tr>
+                    <tr>
+                        <td class="td_left">你喜欢的角色</td>
+                        <td class="td_right">
+                            <table>
+                                <tr>
+                                    <td><input name="item01" type="checkbox" id="item01" value="chk01"><span
+                                            class="style4">柯南</span></td>
+                                    <td><input name="item02" type="checkbox" id="item02" value="chk02"><span
+                                            class="style4">毛利兰</span></td>
+                                    <td><input name="item03" type="checkbox" id="item03" value="chk03"><span
+                                            class="style4">毛利小五郎</span></td>
+                                </tr>
+                                <tr>
+                                    <td><input name="item04" type="checkbox" id="item04" value="chk04"><span
+                                            class="style4">阿笠博士</span></td>
+                                    <td><input name="item05" type="checkbox" id="item05" value="chk05"><span
+                                            class="style4">服部平次</span></td>
+                                    <td><input name="item05" type="checkbox" id="item06" value="chk05"><span
+                                            class="style4">灰原哀</span></td>
+                                </tr>
+                                <tr>
+                                    <td><input name="item05" type="checkbox" id="item07" value="chk05"><span
+                                            class="style4">少年侦探团</span></td>
+                                    <td><input name="item05" type="checkbox" id="item08" value="chk05"><span
+                                            class="style4">工藤新一</span></td>
+                                    <td><input name="item05" type="checkbox" id="item09" value="chk05"><span
+                                            class="style4">赤井秀一</span></td>
+                                </tr>
+                            </table>
+                    </tr>
+                    <tr>
+                        <td class="td_left">喜欢柯南的理由</td>
+                        <td class="td_right"><textarea cols="20" rows="5" name="des" placeholder="随便说说就行"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left"><label for="checkcode">验证码</label></td>
+                        <td class="td_right"><input type="text" name="checkcode" id="checkcode">
+                            <img id="img_check" src="images/erweima01.png"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <button onclick="alert('就你还想注册,');">注册</button>
+                        </td>
+                    </tr>
+                    <!--                    <tr>-->
+                    <!--                        <td colspan="2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style1">(友情提醒：心脏不好不要点此注册)</span>&nbsp;&nbsp;<a href="wangzhan08.html" class="style2">注册</a></td>-->
+                    <!--                    </tr>-->
+                    <tr>
+                        <td colspan="2" align="center"><a href="wangzhan09.html" class="style3">注册</a></td>
+                    </tr>
+
+                </table>
+            </form>
+
+
+        </div>
+
+    </div>
+</div>
+<script src="../click/clicklove.js" async="async"></script>
+</body>
+</html>
